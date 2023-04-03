@@ -145,9 +145,9 @@ const countGuessesRemaining = function (guess) {
        playerMessages.innerHTML = `Game over! The word was <span class ="highlight">${word}</span>.`;
        startOver();
     } else if (remainingGuesses === 1) {
-      remainingGuessesSpan.innerText = `You have ${remainingGuesses} guess remaining`;
+      remainingGuessesSpan.innerText = `${remainingGuesses} guess`;
     } else {
-      remainingGuessesSpan.innerText = `You have ${remainingGuesses} guesses remaining.`;
+      remainingGuessesSpan.innerText = `${remainingGuesses} guesses`;
     }
 };
 
