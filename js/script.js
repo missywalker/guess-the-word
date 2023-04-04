@@ -174,7 +174,7 @@ playAgainButton.addEventListener("click", function () {
     playerMessages.classList.remove("win"); 
     remainingGuesses = 8;
     guessedLetters = [];
-    remainingGuessesSpan.innerText = `You have ${remainingGuesses} guesses remaining.`;
+    remainingGuessesSpan.innerText = `${remainingGuesses} guesses`;
     playerMessages.innerText = "";
     guessedLettersElement.innerHTML = "";
 
